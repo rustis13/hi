@@ -53,3 +53,5 @@ pred = [predict(inp) for inp in test_inputs]
 act = [activate(p) for p in pred]
 for a, t in zip(act, test_targets):
     print(f"target:{t}, predicted:${a:.0f}")
+
+print("This code I will see in GitHub")
